@@ -51,7 +51,7 @@
 		"id": 656739737,
 		"money": 150000,
 		"sex": 1,
-		"last_bonus": 1625910061
+		"last_daily_bonus": 1625910061
     }
 
 <a name="update-menu"></a>
@@ -80,6 +80,6 @@
     {
 		"id": 656739737,
 		"money": 150000,
-		"last_bonus": 1625910061
+		"last_daily_bonus": 1625910061
     }
 
