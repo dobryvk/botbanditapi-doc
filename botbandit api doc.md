@@ -16,8 +16,8 @@
 пример ответа с ошибкой:
 
     {
-    	"error": "security error",
-    	"errno": 0
+		"error": "security error",
+		"errno": 0
     }
 
 ## методы api
@@ -35,7 +35,7 @@
 пример запроса:
 
     {
-    	"url": "https://site.com/?vk_user_id=494075&vk_app_id=6736218&vk_is_app_user=1&vk_are_notifications_enabled=1&vk_language=ru&vk_access_token_settings=&vk_platform=android&sign=t4WeyGcuTMSnKECxnjaBQrPBJgw3xNHzky7NcXyTcgI"
+		"url": "https://site.com/?vk_user_id=494075&vk_app_id=6736218&vk_is_app_user=1&vk_are_notifications_enabled=1&vk_language=ru&vk_access_token_settings=&vk_platform=android&sign=t4WeyGcuTMSnKECxnjaBQrPBJgw3xNHzky7NcXyTcgI"
     }
 
 |возвращаемое значение|описание|
@@ -48,10 +48,10 @@
 пример ответа:
 
     {
-	"id": 656739737,
-	"money": 150000,
-	"sex": 1,
-	"last_bonus": 1625910061
+		"id": 656739737,
+		"money": 150000,
+		"sex": 1,
+		"last_bonus": 1625910061
     }
 
 <a name="update-menu"></a>
@@ -66,7 +66,7 @@
 пример запроса:
 
     {
-    	"url": "https://site.com/?vk_user_id=494075&vk_app_id=6736218&vk_is_app_user=1&vk_are_notifications_enabled=1&vk_language=ru&vk_access_token_settings=&vk_platform=android&sign=t4WeyGcuTMSnKECxnjaBQrPBJgw3xNHzky7NcXyTcgI"
+		"url": "https://site.com/?vk_user_id=494075&vk_app_id=6736218&vk_is_app_user=1&vk_are_notifications_enabled=1&vk_language=ru&vk_access_token_settings=&vk_platform=android&sign=t4WeyGcuTMSnKECxnjaBQrPBJgw3xNHzky7NcXyTcgI"
     }
 
 |возвращаемое значение|описание|
@@ -78,8 +78,8 @@
 пример ответа:
 
     {
-	"id": 656739737,
-	"money": 150000,
-	"last_bonus": 1625910061
+		"id": 656739737,
+		"money": 150000,
+		"last_bonus": 1625910061
     }
 
