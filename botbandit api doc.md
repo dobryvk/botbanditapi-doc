@@ -106,8 +106,8 @@
 |responce|результат **(string)**|
 
 варианты **responce**:
-• ok;
-• limit have not passed.
+ - ok
+ - limit have not passed
 
 пример ответа:
 
