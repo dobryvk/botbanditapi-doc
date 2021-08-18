@@ -85,7 +85,7 @@
 		"last_daily_bonus": 1625910061
     }
 
-<a name="update-menu"></a>
+<a name="get-daily-bonus"></a>
 ### get-daily-bonus.php
 
 вызывается, когда пользователь нажимает на кнопку получения ежедневного бонуса
