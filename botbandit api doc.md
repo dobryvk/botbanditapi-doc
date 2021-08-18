@@ -1,9 +1,11 @@
+
 # документация botbandit api
 
 ## список методов:
 
 1. [init.php](#init) — нужен для получения основной информации об аккаунте на старте приложения. также служит для обработки #-информации (скам);
 2. [update-menu.php](#update-menu)   — нужен для получения информации в меню приложения;
+3. [get-daily-bonus.php](#get-daily-bonus)   — вызывается, когда пользователь нажимает на кнопку получения ежедневного бонуса;
 
 ## общие ошибки и то, как следует их обрабатывать
 
@@ -83,3 +85,33 @@
 		"last_daily_bonus": 1625910061
     }
 
+<a name="update-menu"></a>
+### get-daily-bonus.php
+
+вызывается, когда пользователь нажимает на кнопку получения ежедневного бонуса
+
+|параметр|описание|
+|--|--|
+|url|url с которым запустилось приложение **(string)**|
+
+пример запроса:
+
+    {
+		"url": "https://site.com/?vk_user_id=494075&vk_app_id=6736218&vk_is_app_user=1&vk_are_notifications_enabled=1&vk_language=ru&vk_access_token_settings=&vk_platform=android&sign=t4WeyGcuTMSnKECxnjaBQrPBJgw3xNHzky7NcXyTcgI"
+    }
+
+|возвращаемое значение|описание|
+|--|--|
+|id|vkid пользователя **(int)**|
+|responce|результат **(string)**|
+
+варианты **responce**:
+• ok;
+• limit have not passed.
+
+пример ответа:
+
+    {
+		"id": 656739737,
+		"responce": "ok"
+    }
