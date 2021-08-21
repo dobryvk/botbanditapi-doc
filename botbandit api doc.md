@@ -104,6 +104,7 @@
 |--|--|
 |id|vkid пользователя **(int)**|
 |responce|результат **(string)**|
+|last_daily_bonus|unix-время, когда последний раз пользователь забирал ежедневных бонус **(int)**|
 
 варианты **responce**:
  - ok
@@ -113,5 +114,6 @@
 
     {
 		"id": 656739737,
-		"responce": "ok"
+		"responce": "ok",
+		"last_daily_bonus": 1625910061
     }
